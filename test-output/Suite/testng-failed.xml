@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.Homepage">
+        <methods>
+          <include name="trustedandglobal_clickbutton"/>
+          <include name="fullstackmeataver_click"/>
+          <include name="opensea_clickbutton"/>
+          <include name="footerLinks_click"/>
+          <include name="videobtn_click"/>
+          <include name="joincommunity_clickbutton"/>
+          <include name="closeFlyoverPopup"/>
+          <include name="closeFlyoverPopup"/>
+          <include name="learnfromacademy_click"/>
+          <include name="metabtn_click"/>
+          <include name="reserveknowbutton_clickbutton"/>
+          <include name="news_click"/>
+          <include name="setUp"/>
+          <include name="Top3_ButtonClick"/>
+          <include name="closeFlyoverPopup_click"/>
+          <include name="footer_Privacylinks"/>
+          <include name="ourkeyinvestor_click"/>
+          <include name="joinareteam_click"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
